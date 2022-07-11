@@ -20,22 +20,22 @@ const AvatarSection = () => {
 				<div className="flex flex-col justify-between h-96 bg-dark-400 rounded-[10px] p-6 pb-5 mb-10">
 					<p className="text-dark-100">Set the hand you're playing with</p>
 					<div className="flex flex-grow p-5 flex-wrap overflow-hidden hover:scrollbar-thin scrollbar-thumb-rounded-full scrollbar-thumb-dark-700 scrollbar-track-dark-400">
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
-						<div className="h-20 w-20 bg-dark-500 hover:bg-green-light rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
+						<div className="h-20 w-20 bg-dark-500 hover:bg-dark-700 rounded-xl mr-3 cursor-pointer mb-3"></div>
 					</div>
 				</div>
 			</div>

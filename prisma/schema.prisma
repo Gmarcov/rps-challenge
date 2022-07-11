@@ -10,10 +10,11 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Player {
+model Room {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   name     String   @db.VarChar(255)
-  handSkin  Int @default(1)
+  numUsers  Int @default(1)
+  full     Boolean @default(false)
 }

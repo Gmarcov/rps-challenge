@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import EnterPartyIcon from "../../assets/images/icons/EnterPartyIcon.svg";
+import EnterPartyIcon from "../../assets/icons/EnterPartyIcon.svg";
 
 const StartParty = () => {
 	return (

@@ -1,26 +1,33 @@
 {
-  "name": "rps-challenge",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@prisma/client": "^4.0.0",
-    "autoprefixer": "^10.4.7",
-    "next": "12.2.0",
-    "postcss": "^8.4.14",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "^3.1.4"
-  },
-  "devDependencies": {
-    "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0",
-    "prisma": "^4.0.0",
-    "tailwind-scrollbar": "adoxography/tailwind-scrollbar#pull/36/head"
-  }
+	"name": "rps-challenge",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@next/swc-linux-x64-gnu": "^12.2.0",
+		"@next/swc-linux-x64-musl": "^12.2.0",
+		"@prisma/client": "^4.0.0",
+		"apollo-server": "^3.9.0",
+		"apollo-server-micro": "^3.9.0",
+		"autoprefixer": "^10.4.7",
+		"express": "^4.18.1",
+		"graphql": "^16.5.0",
+		"micro-cors": "^0.1.1",
+		"next": "12.2.0",
+		"postcss": "^8.4.14",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"tailwindcss": "^3.1.4"
+	},
+	"devDependencies": {
+		"eslint": "8.19.0",
+		"eslint-config-next": "12.2.0",
+		"prisma": "^4.0.0",
+		"tailwind-scrollbar": "adoxography/tailwind-scrollbar#pull/36/head"
+	}
 }
