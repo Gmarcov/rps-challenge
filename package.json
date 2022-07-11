@@ -8,9 +8,10 @@
 		"start": "next start",
 		"lint": "next lint"
 	},
+	"prisma": {
+		"seed": "node prisma/seed.js"
+	},
 	"dependencies": {
-		"@next/swc-linux-x64-gnu": "^12.2.0",
-		"@next/swc-linux-x64-musl": "^12.2.0",
 		"@prisma/client": "^4.0.0",
 		"apollo-server": "^3.9.0",
 		"apollo-server-micro": "^3.9.0",

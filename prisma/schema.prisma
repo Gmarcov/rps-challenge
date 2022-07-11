@@ -14,7 +14,6 @@ model Room {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  name     String   @db.VarChar(255)
-  numUsers  Int @default(1)
-  full     Boolean @default(false)
+  numUsers  Int      @default(1)
+  full      Boolean  @default(false)
 }
