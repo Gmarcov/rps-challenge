@@ -1,6 +1,6 @@
 import React from "react";
 import AvatarSection from "../components/home/AvatarSection";
-import StartParty from "../components/home/StartParty";
+import StartParty from "../components/home/NewPartySection";
 
 const index = () => {
 	return (

@@ -1,4 +1,4 @@
-import { gql } from "apollo-server";
+import { gql } from "apollo-server-micro";
 
 export const typeDefs = gql`
 	type Room {
@@ -9,5 +9,11 @@ export const typeDefs = gql`
 
 	type Query {
 		rooms: [Room]
+		room(id: Int): Room
+	}
+
+	type Mutation {
+		createRoom: Room
+		deleteRoom(id: Int): Room
 	}
 `;

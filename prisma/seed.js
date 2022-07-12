@@ -5,7 +5,8 @@ const prisma = new PrismaClient();
 async function main() {
 	await prisma.room.create({
 		data: {
-			numUsers: 0,
+			numUsers: 2,
+			full: true,
 		},
 	});
 	console.log("Seeded");
